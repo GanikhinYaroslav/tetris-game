@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="../icon/tetris.png">
+  <title>Tetris Game</title>
+</head>
+
+<body>
+  <h1>Tetris Game</h1>
+  <div class="container">
+    <div class="controls">
+      <button id="left" title="Press Left arrow" disabled>&larr;</button>
+      <button id="up" title="Press Up arrow" disabled>&uarr;</button>
+      <button id="down" title="Press Down arrow" disabled>&darr;</button>
+      <button id="right" title="Press Right arrow" disabled>&rarr;</button>
+    </div>
+    <div id="canvas-container">
+    </div>
+
+    <aside>
+
+      <div>
+        <div>Score: <span id="score">0</span></div>
+        <div>Level: <span id="lvl">1</span></div>
+      </div>
+      <div id="mini">
+      Next figure:
+      </div>
+      <div class="btn-group">
+          <button id="start" title="Press R">&#11118;</button>
+          <button id="play" disabled title="Press P">&#9199;</button>
+          <button id="incLVL" title="Press +">&#10133;</button>
+          <button id="decLVL" disabled title="Press -">&#10134;</button>
+      </div>
+    </aside>
+  </div>
+
+  <script src="../js/main.js" type="module"></script>
+  <script src="../js/main.js" nomodule></script>
+</body>
+
+</html>
