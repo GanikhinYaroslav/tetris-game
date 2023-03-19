@@ -50,7 +50,7 @@ export class Canvas {
     // }
   }
   drawMessage(msg, color, fz, offset = 0) {
-    this.fillBackground("rgba(250,250,250,0.2)");
+    this.fillBackground("rgba(250,250,250,0.1)");
     this.context.fillStyle = color;
     this.context.font = fz.toString() + "px Kanit, sans-serif";
     this.context.textBaseline = 'middle';

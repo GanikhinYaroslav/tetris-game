@@ -67,6 +67,7 @@ document.getElementById('start').onclick = () => { start(); };
 document.getElementById('play').onclick = () => { pause(); };
 document.getElementById('incLVL').onclick = () => { incLVL(true); };
 document.getElementById('decLVL').onclick = () => { decLVL(true); };
+drawStartScreen();
 
 
 document.getElementById('left').onclick = () => { 
@@ -298,6 +299,12 @@ function moveFigure(direction) {
   return 0;
 }
 
+function drawStartScreen(){
+  c.drawMessage("Start new game: ↻", 'red', 26, -60);
+  c.drawMessage("Continue/pause: ⏯︎", 'yellow', 26, -30);
+  c.drawMessage("Increase LVL: +", 'blue', 26, 30);
+  c.drawMessage("Decrease LVL: -", 'green', 26, 60);
+}
 
 function updateScore() {
   document.getElementById("score").innerText = `${score}`;
