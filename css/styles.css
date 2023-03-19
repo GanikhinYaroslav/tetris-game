@@ -20,7 +20,7 @@ button {
   /* font-weight: bold; */
   outline: none;
   font-family: Arial, sans-serif;
-  padding: 10px 5px;
+  padding: 15px 10px;
 }
 button:hover{
   opacity: 0.8;
