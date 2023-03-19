@@ -21,15 +21,27 @@ export const Direction = {
   Right: 'Right'
 };
 
+// export const Color = {
+//   red: 'red',
+//   blue: 'blue',
+//   green: 'green',
+//   yellow: 'yellow',
+//   purple: 'purple',
+//   orange: 'orange',
+//   pink: 'pink',
+//   lightblue: 'lightblue',
+// };
 export const Color = {
-  red: 'red',
-  blue: 'blue',
-  green: 'green',
-  yellow: 'yellow',
-  purple: 'purple',
-  orange: 'orange',
-  pink: 'pink',
-  lightblue: 'lightblue',
+  red: '#FF0000',
+  orange: '#FF8700',
+  yellow: '#FFD300',
+  lightgreen: '#DEFF0A',
+  green: '#A1FF0A',
+  springgreen: '#0AFF99',
+  lightblue: '#0AEFFF',
+  blue: '#147DF5',
+  deepblue: '#580AFF',
+  purple: '#BE0AFF',
 };
 
 export const FigureSprites = {

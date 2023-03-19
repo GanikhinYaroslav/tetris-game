@@ -2,7 +2,8 @@ export const cellSize = 20;
 export const HEIGHT = Math.floor(0.7 * window.innerHeight / cellSize);
 export const WIDTH = Math.floor(0.67 * HEIGHT);
 export const strokeSize = 1;
-export const BackgroundColor = '#f6f6f6';
+// export const BackgroundColor = '#f6f6f6';
+export const BackgroundColor = '#3b3b3b';
 
 export class Canvas {
   constructor(w, h) {
@@ -64,6 +65,6 @@ export class Canvas {
   resetGraphics() {
     this.context.fillStyle = BackgroundColor;
     this.context.lineWidth = strokeSize;
-    this.context.strokeStyle = '#ccc';
+    this.context.strokeStyle = BackgroundColor;
   }
 }
