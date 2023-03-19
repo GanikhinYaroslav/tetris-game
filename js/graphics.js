@@ -1,4 +1,4 @@
-export const cellSize = 15;
+export const cellSize = 17;
 export const HEIGHT = Math.floor(0.7 * window.innerHeight / cellSize);
 export const WIDTH = Math.floor(0.67 * HEIGHT);
 export const strokeSize = 1;

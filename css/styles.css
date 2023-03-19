@@ -17,10 +17,10 @@ button {
   background-color: #5800e6;
   border-radius: 5px;
   color: white;
-  font-weight: bold;
+  /* font-weight: bold; */
   outline: none;
   font-family: Arial, sans-serif;
-  padding: 5px;
+  padding: 10px 5px;
 }
 button:hover{
   opacity: 0.8;
@@ -82,7 +82,6 @@ aside span{
   .controls button {
     margin: 0 auto;
     width: 20%;
-    padding: 10px 5px;
   }
   /* .btn-group {
     margin-left: 15px;
