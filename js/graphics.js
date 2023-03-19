@@ -1,11 +1,11 @@
 export const cellSize = 15;
-export const WIDTH = 15;
-export const HEIGHT = 20;
+export const HEIGHT = Math.floor(0.7 * window.innerHeight / cellSize);
+export const WIDTH = Math.floor(0.67 * HEIGHT);
 export const strokeSize = 1;
 export const BackgroundColor = '#f6f6f6';
 
-export class Canvas{
-  constructor(w,h){
+export class Canvas {
+  constructor(w, h) {
     this.canvas = document.createElement('canvas');
     this.canvas.width = w * cellSize;
     this.canvas.height = h * cellSize;
@@ -48,7 +48,7 @@ export class Canvas{
     //   this.drawGrid();
     // }
   }
-  drawMessage(msg, color, fz, offset=0) {
+  drawMessage(msg, color, fz, offset = 0) {
     this.fillBackground("rgba(250,250,250,0.2)");
     this.context.fillStyle = color;
     this.context.font = fz.toString() + "px Kanit, sans-serif";

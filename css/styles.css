@@ -82,13 +82,14 @@ aside span{
   .controls button {
     margin: 0 auto;
     width: 20%;
+    padding: 10px 5px;
   }
-  .btn-group {
+  /* .btn-group {
     margin-left: 15px;
-  }
+  } */
   .btn-group button{
     margin: 3px;
-    min-width: 20%;
+    min-width: 25%;
   }
 
   .container {
@@ -96,7 +97,7 @@ aside span{
     flex-direction: column-reverse;
   }
   aside{
-    justify-content: center;
+    justify-content: space-evenly;
   }
   #mini {
     display: none;
